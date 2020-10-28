@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Assets/css/stylesheet.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>¿Quieres ser mi novia?</title>
+</head>
+
+<body class="background-dark">
+
+    <div id="content">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <h1>¿Quieres ser mi novia?</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div id="yepBox" class="col">
+                    <button id="yep" class="btn btn-outline-success btn-lg btn-block" data-toggle="modal" data-target="#thanks">Sí</button>
+                </div>
+                <div id="nopeBox" class="col">
+                    <button id="nope" class="btn btn-outline-danger btn-lg btn-block">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="thanks" tabindex="-1" aria-labelledby="thanksILoveU" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="thanksILoveU">Lo sabía <span><i class="fas fa-heart text-danger"></i></span></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body text-center">
+                    <img width="100%" height="auto" src="./Assets/img/love-u.gif" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="https://kit.fontawesome.com/a4073c62d1.js" crossorigin="anonymous"></script>
+    <script src="./Assets/js/app.js"></script>
+</body>
+
+</html>
